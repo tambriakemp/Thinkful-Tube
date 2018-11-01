@@ -1,11 +1,18 @@
+@import "compass/css3";
+
 * {
     padding: 0;
     margin: 0;
 }
 
+body {
+    width: 90%;
+}
+
 .row {
     padding: 40px 0 40px 0;
     text-align: center;
+    
 }
 header {
     text-align: center;
@@ -45,6 +52,29 @@ main {
     background-color: #fff;
     border: none;
     margin-left: 5px;
+}
+
+.videos {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.col-3 {
+    width: 32%;
+    /* flex-direction: row; */
+    padding: 5px;
+    margin-top: 10px;
+
 }
 
 @media only screen and (max-width: 600px) {

@@ -22,36 +22,8 @@ $(function initApp() {
                     // show the user that we've got no results from YouTube
 
                     //  return 
-                } else {
-                    const results = data.items.map((item, index) => renderResult(item));
-                    $('.videos').append(`
-                    <div>
-                      <h2>
-                      <a class="js-result-name" href="${result.html_url}" target="_blank">${result.name}</a> by <a class="js-user-name" href="${result.owner.html_url}" target="_blank">${result.owner.login}</a></h2>
-                      <p>Number of watchers: <span class="js-watchers-count">${result.watchers_count}</span></p>
-                      <p>Number of open issues: <span class="js-issues-count">${result.open_issues}</span></p>
-                    </div>
-                  `);
-
-                }
-                //     $('.videos').append(`<div class="grid">${}</div>`);
-
-
-                //     // let html = "";
-                //     // let entries = data.items;
-                    
-                //     // $.each(entries, function (index, data) {
-                //     //     let title = data.snippet.title;
-                //     //     let thumb = data.snippet.thumbnails.high.url;
-
-                //         // html += '<p>' + title + '</p>';
-                //         // html += '<img src="' + thumb + '">';
-
-                //     // }); 
-                    
-                //     // $('.videos').append(`<div class="grid">${html}</div>`);
-                // }
-            
+                } 
+           
                 
         });                
     });

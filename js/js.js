@@ -41,8 +41,8 @@ function renderSearch (data) {
                 //variable holding data.part.property
                 let videoId = data.id.videoId;
 
-                html += '<a href="https://youtube.com/embed/' + videoId + '?rel=0">' + title + '</a>';
-                html += '<img src="' + thumbnail + '">';
+                html += '<div class="col-3"><!--<a href="https://youtube.com/embed/' + videoId + '?rel=0">' + title + '</a>-->';
+                html += '<img src="' + thumbnail + '"></div>';
             }); 
             
             $('.videos').html(html);
