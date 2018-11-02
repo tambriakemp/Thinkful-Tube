@@ -75,4 +75,6 @@ $(initApp);
 //[ ] Pagination
 //[ ] Add second api to pull statistics data for view count and channel name
 //[ ] Show a link for more from the channel that each video came from
+//[ ] add if statement for no results back 
+
 
