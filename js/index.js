@@ -48,7 +48,7 @@ function renderSearch(data) {
 
                             <img src="${thumbnail}" alt="" class="thumb">
                             <div class="details">
-                                <h4><a href="#" class="play-video">${title}</a></h4>
+                                <h4><a href="#" class="play-video" title="Play Selected Video">${title}</a></h4>
                                 <p class="channel-title">${chan}</p>
 
                             </div>
