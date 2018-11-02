@@ -1,15 +1,26 @@
 'use strict';
 
 function initApp() {
-    $('.featured-video').hide();
+    console.log('yup i work');
+    getRequest();
+    // let initVid = data.id.videoId[0];
+
+    // $('.featured-video').show().html(`
+    // <iframe src="https://www.youtube.com/embed/${initVid}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    // `);
+
+    handleSearch();
+
+}
+
+function handleSearch() {
+    // $('.featured-video').hide();
     $('#search-form').on('submit', function (ev) {
         ev.preventDefault();
         console.log('For submitted! But we are not doing anything - yet.');
 
         let searchCriteria = $('#query').val();
-
         console.log({ searchCriteria });
-
 
         getRequest(searchCriteria);
     });
@@ -41,7 +52,6 @@ function renderSearch(data) {
         let vid = data.id.videoId;
         // let desc = data.snippet.description.substring(0, 100);
         let chan = data.snippet.channelTitle;
-
 
         $('.videos').append(`
                          <div class="col-3" data-key="${vid}">
