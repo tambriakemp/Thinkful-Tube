@@ -6,6 +6,7 @@
 }
 
 body {
+    margin: auto;
     width: 90%;
 }
 
@@ -55,16 +56,7 @@ main {
 }
 
 .videos {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
@@ -74,9 +66,15 @@ main {
     /* flex-direction: row; */
     padding: 5px;
     margin-top: 10px;
-
 }
 
+.col-3-container {
+    padding: 2px 16px;
+}
+
+.featured-video row {
+    background-color: black;
+}
 @media only screen and (max-width: 600px) {
 
     .logo {
