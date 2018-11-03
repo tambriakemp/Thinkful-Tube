@@ -16,7 +16,7 @@ function initApp() {
     // });
 
     $(document).ready(function() {
-        $('.col-3:first-child').trigger('click');
+        $('.col-3:first').trigger('click');
       });
 
 
