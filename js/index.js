@@ -3,11 +3,24 @@
 function initApp() {
     console.log('yup i work');
     getRequest();
+
+
     // let initVid = data.id.videoId[0];
 
     // $('.featured-video').show().html(`
     // <iframe src="https://www.youtube.com/embed/${initVid}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     // `);
+    // $('.videos').load(function(event) {
+    //     $('.videos').find('.col-3:first').trigger('click');
+
+    // });
+
+    $(document).ready(function() {
+        $('.col-3:first-child').trigger('click');
+      });
+
+
+    console.log('yup i work too');
 
     handleSearch();
 

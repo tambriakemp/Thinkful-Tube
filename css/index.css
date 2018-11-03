@@ -156,9 +156,13 @@ main {
         width: 100%;
     }
 
+    /* .video-grid {
+        width: 100%;
+    } */
+
     .featured-video {
         background-color: black;
-        width: 100%;
+        width: 50%;
         height: auto;
         text-align: center;
     }
