@@ -1,26 +1,7 @@
 'use strict';
 
 function initApp() {
-    console.log('yup i work');
     getRequest();
-
-
-    // let initVid = data.id.videoId[0];
-
-    // $('.featured-video').show().html(`
-    // <iframe src="https://www.youtube.com/embed/${initVid}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    // `);
-    // $('.videos').load(function(event) {
-    //     $('.videos').find('.col-3:first').trigger('click');
-
-    // });
-
-    $(document).ready(function() {
-        $('.col-3:first').trigger('click');
-      });
-
-
-    console.log('yup i work too');
 
     handleSearch();
 
@@ -98,6 +79,8 @@ $(initApp);
 //[ ] Pagination
 //[ ] Add second api to pull statistics data for view count and channel name
 //[ ] Show a link for more from the channel that each video came from
-//[ ] add if statement for no results back 
+//[ ] add if statement for no results back
+//[ ] show featured on load of app
+
 
 
