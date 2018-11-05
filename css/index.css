@@ -23,33 +23,25 @@ h4 {
 .row {
     padding: 40px 0 40px 0;
     text-align: center;
-    
 }
+
 header {
     text-align: center;
     padding-top: 30px; 
 }
 
-main {
-    /* margin: 0 5% 0 5%; */
-    min-height: 100%;
-    margin: 0 5% -50px 5%;
-
-}
-
 .logo {
-    width: 40%;
+    width: 70%;
 }
 
 #search-form {
     display: inline-block;
-    width: 40%;
+    width: 70%;
 }
 .form-container {
     display: block;
     position: relative;
-    
-}
+ }
 
 #query {
     border-radius: 3px;
@@ -58,6 +50,7 @@ main {
     width: 80%;
     background-color: #eee;
 }
+
 .search-button {
     position: absolute;
     background-image: url('../images/search.png');
@@ -71,18 +64,16 @@ main {
 
 .videos {
     display: flex;
-    flex-flow: row wrap;
-    -webkit-flex-flow: row wrap;
     justify-content: space-around;
+    flex-direction: column;
+    margin: 15px;
 }
 
 .col-3 {
-    width: 32%;
-    /* padding: 5px; */
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
     border-bottom: 3px black solid;
-
 }
 
 .col-3 img{
@@ -107,56 +98,53 @@ main {
     text-align: center;
 }
 
-.featured-video iframe {
-    width: 560px;
-    height: 315px;
-    text-align: center;
-}
-
 .channel-title {
     color: grey;
 }
 
-@media only screen and (max-width: 600px) {
-    body a{
-        margin: auto;
-        width: 80%;
+@media only screen and (min-width: 640px) {
+    body{
+        width: 75%;
     }
 
     .logo {
-        width: 100%;
+        width: 40%;
     }
 
     #search-form {
-        width: 100%;
+        width: 40%;
     }
 
-    .videos {
-        display: flex;
-        /* -webkit-flex-flow: row wrap; */
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    
     .col-3 {
-        width: 95%;
-        padding: 5px;
+        width: 30%;
         margin-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 3px black solid;
     }
     
     .col-3 img{
         width: 100%;
     }
 
-    /* .video-grid {
-        width: 100%;
-    } */
-
     .featured-video {
         background-color: black;
-        width: 50%;
+        width: 95%;
         height: auto;
+        margin: auto;
+
+    }
+
+    .featured-video iframe {
+        width: 560px;
+        height: 315px;
         text-align: center;
+    }
+
+    .videos {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
     }
 }
 
