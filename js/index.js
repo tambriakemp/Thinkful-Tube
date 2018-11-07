@@ -38,6 +38,10 @@ function renderSearch(data) {
     // 
     $('.videos').html('');
 
+    featuredVid(data.items[0].id.videoId); 
+    //getting first item of the list and passing 
+    //it directly to featured vid function
+
     $.each(data.items, function (i, data) {
 
         let title = data.snippet.title;

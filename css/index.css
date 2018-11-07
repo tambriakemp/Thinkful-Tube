@@ -104,19 +104,19 @@ header {
 
 @media only screen and (min-width: 640px) {
     body{
-        width: 75%;
+        width: 60%;
     }
 
     .logo {
-        width: 40%;
+        width: 50%;
     }
 
     #search-form {
-        width: 40%;
+        width: 50%;
     }
 
     .col-3 {
-        width: 30%;
+        width: 32%;
         margin-top: 10px;
         margin-bottom: 20px;
         border-bottom: 3px black solid;
@@ -128,7 +128,7 @@ header {
 
     .featured-video {
         background-color: black;
-        width: 95%;
+        width: 100%;
         height: auto;
         margin: auto;
 
@@ -145,6 +145,7 @@ header {
         flex-flow: row wrap;
         -webkit-flex-flow: row wrap;
         justify-content: space-around;
+        margin: 0 
     }
 }
 
