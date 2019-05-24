@@ -2,7 +2,7 @@
 http://thinkfultube.netlify.com
 
 ## Description
-PSD to HTML conversion
+YouTube search application built using JavaScript and YouTube's Search API
 
 ## Tech Stack
 * HTML5/CSS3
